@@ -1,0 +1,33 @@
+﻿<Window x:Class="Act5_Calculatrice_Binaire.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Act5_Calculatrice_Binaire"
+        mc:Ignorable="d"
+        Title="MainWindow" Background="green" FontSize="35" Height="350" Width="750">
+    <Grid x:Name="grdMain">
+        <WrapPanel>
+            <TextBlock Margin="40,30,30,0" Foreground="White">Nombre 1</TextBlock>
+            <TextBox x:Name="textBox1" Margin="0,20,0,0" Width="250" Height="70" MaxLength="7"/>
+
+        </WrapPanel>
+
+        <WrapPanel>
+            <TextBlock Foreground="white" Margin="40,120,30,0">Nombre 2</TextBlock>
+            <TextBox x:Name="textBox2" Margin="0,110,0,0" Width="250" Height="70" MaxLength="7"/>
+        </WrapPanel>
+
+        <GroupBox>
+            <StackPanel>
+                <RadioButton x:Name="rationBtn1" HorizontalAlignment="Right" Foreground="white" Margin="50,40,80,0">Addition</RadioButton>
+                <RadioButton x:Name="rationBtn2" HorizontalAlignment="Right" Foreground="white" Margin="0,40,20,0">Soustraction</RadioButton>
+            </StackPanel>
+        </GroupBox>
+
+        <StackPanel VerticalAlignment="Bottom" Margin="0,0,0,20">
+            <Button x:Name="BtnCalculer" Background="White" Margin="0,0,0,10">CALCULER</Button>
+            <TextBlock HorizontalAlignment="Center" >Résultat</TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>

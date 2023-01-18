@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Act5_Calculatrice_Binaire", "Act5_Calculatrice_Binaire\Act5_Calculatrice_Binaire.csproj", "{7442F166-A27B-4930-A76E-1655A54E007E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7442F166-A27B-4930-A76E-1655A54E007E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7442F166-A27B-4930-A76E-1655A54E007E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7442F166-A27B-4930-A76E-1655A54E007E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7442F166-A27B-4930-A76E-1655A54E007E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B691047C-598C-4CD0-83FE-85C12E54248D}
+	EndGlobalSection
+EndGlobal
